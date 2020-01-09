@@ -1,11 +1,14 @@
-#include<iostream>
+// Lese mit scanf und cin ein Wort, ein Zeichen und eine Fließkommazahl ein und
+// geben Sie die Inhalte mit printf und cout wieder aus.
+
+#include <iostream>
 #include <stdio.h>
 
 int main() {
     float zahl {};
     char name [25] {};
     char buchstabe {};
-    
+
     // std::cout<< "gib einen Namen ein:" << std::endl;
     // std::cin >> name;
     // std::cout << "gib eine Zahl ein:" << std::endl;
@@ -18,7 +21,7 @@ int main() {
 
     printf("Gib einen Namen ein:");
     scanf("%24s",name);
-    printf("Gib eine Zahl ein:");    
+    printf("Gib eine Zahl ein:");
     scanf("%f", &zahl);
     printf("Gib einen Buchstaben ein:");
     scanf("%s", &buchstabe);
@@ -27,5 +30,6 @@ int main() {
     printf("\nDein angegebener Name: %s\n", name);
     printf("Dein angegebene Zahl: %f\n", zahl);
     printf("Dein angegebener Buchstabe: %s\n", &buchstabe);
+
     return 0;
 }

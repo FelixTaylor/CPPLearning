@@ -1,6 +1,7 @@
-#include<iostream>
+// Schreibe ein Programm, dass das kleine Einmaleins berechnet und in
+// Tabellenform auf dem Bildschirm ausgibt.
 
-usign namespace std;
+#include<iostream>
 
 int main() {
 

@@ -1,6 +1,7 @@
-#include<iostream>
+// Erstelle ein Programm, das mithilfe einer for-Schleife alle durch 7 teilbaren
+// Zahlen zwischen zwei zuvor eingegebenen Grenzen ausgibt.
 
-usign namespace std;
+#include<iostream>
 
 int main() {
 
