@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 struct zahl {
     static int timesTwo(int n) {
@@ -8,6 +7,6 @@ struct zahl {
 };
 
 int main () {
-   cout << zahl::timesTwo(198) << endl;
+    std::cout << zahl::timesTwo(198) << std::endl;
    return 0;
 }
